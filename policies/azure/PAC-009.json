@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "displayName": "PAC-009 No public database endpoints",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Databases are reachable only on private paths.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-009",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Sql/servers"
+          },
+          {
+            "field": "Microsoft.Sql/servers/publicNetworkAccess",
+            "notEquals": "Disabled"
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

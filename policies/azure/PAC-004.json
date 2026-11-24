@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "displayName": "PAC-004 No public IPs on compute",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Compute is reachable only through approved ingress paths.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-004",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Network/networkInterfaces"
+          },
+          {
+            "field": "Microsoft.Network/networkInterfaces/ipconfigurations[*].publicIpAddress.id",
+            "exists": true
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

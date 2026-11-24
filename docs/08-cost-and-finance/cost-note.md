@@ -1,0 +1,2 @@
+# Cost note (qualitative; no figures invented)
+SCPs, Azure Policy and GCP Org Policy carry no per-policy charge. Costs come from detective services (AWS Config rule evaluations, Defender for Cloud plans, Security Command Center tier), CI minutes and evidence storage; these depend on estate size and are not modelled here. Refresh with provider calculators before quoting. The main economic argument is lower audit effort and avoided divergence incidents, not direct savings.

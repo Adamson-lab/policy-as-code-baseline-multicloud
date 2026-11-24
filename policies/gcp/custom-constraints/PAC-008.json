@@ -1,0 +1,34 @@
+{
+  "constraint": {
+    "name": "organizations/ORG_ID/customConstraints/custom.pac008RequireCostCenterLabel",
+    "resourceTypes": [
+      "compute.googleapis.com/Instance"
+    ],
+    "methodTypes": [
+      "CREATE"
+    ],
+    "condition": "resource.labels.exists(k, k == 'cost-center')",
+    "actionType": "ALLOW",
+    "displayName": "PAC-008 require cost-center label"
+  },
+  "policy": {
+    "name": "organizations/ORG_ID/policies/custom.pac008RequireCostCenterLabel",
+    "spec": {
+      "rules": [
+        {
+          "enforce": true
+        }
+      ]
+    }
+  },
+  "policyDryRun": {
+    "name": "organizations/ORG_ID/policies/custom.pac008RequireCostCenterLabel",
+    "dryRunSpec": {
+      "rules": [
+        {
+          "enforce": true
+        }
+      ]
+    }
+  }
+}

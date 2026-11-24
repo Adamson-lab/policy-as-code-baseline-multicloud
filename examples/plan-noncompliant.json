@@ -1,0 +1,551 @@
+{
+  "resource_changes": [
+    {
+      "address": "pac-001.aws_s3_bucket_public_access_block_block_public_acls_eq_1",
+      "type": "aws_s3_bucket_public_access_block",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "block_public_acls": false,
+          "block_public_policy": true,
+          "ignore_public_acls": true,
+          "restrict_public_buckets": true
+        }
+      }
+    },
+    {
+      "address": "pac-001.aws_s3_bucket_public_access_block_block_public_policy_eq_2",
+      "type": "aws_s3_bucket_public_access_block",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "block_public_acls": true,
+          "block_public_policy": false,
+          "ignore_public_acls": true,
+          "restrict_public_buckets": true
+        }
+      }
+    },
+    {
+      "address": "pac-001.aws_s3_bucket_public_access_block_ignore_public_acls_eq_3",
+      "type": "aws_s3_bucket_public_access_block",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "block_public_acls": true,
+          "block_public_policy": true,
+          "ignore_public_acls": false,
+          "restrict_public_buckets": true
+        }
+      }
+    },
+    {
+      "address": "pac-001.aws_s3_bucket_public_access_block_restrict_public_buckets_eq_4",
+      "type": "aws_s3_bucket_public_access_block",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "block_public_acls": true,
+          "block_public_policy": true,
+          "ignore_public_acls": true,
+          "restrict_public_buckets": false
+        }
+      }
+    },
+    {
+      "address": "pac-001.azurerm_storage_account_allow_nested_items_to_be_public_eq_5",
+      "type": "azurerm_storage_account",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "allow_nested_items_to_be_public": true
+        }
+      }
+    },
+    {
+      "address": "pac-001.google_storage_bucket_public_access_prevention_eq_enforced",
+      "type": "google_storage_bucket",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "public_access_prevention": "invalid"
+        }
+      }
+    },
+    {
+      "address": "pac-002.aws_ebs_volume_encrypted_eq_1",
+      "type": "aws_ebs_volume",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "encrypted": false
+        }
+      }
+    },
+    {
+      "address": "pac-002.aws_db_instance_storage_encrypted_eq_2",
+      "type": "aws_db_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "storage_encrypted": false
+        }
+      }
+    },
+    {
+      "address": "pac-002.azurerm_managed_disk_disk_encryption_set_id_exists_3",
+      "type": "azurerm_managed_disk",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {}
+      }
+    },
+    {
+      "address": "pac-002.google_storage_bucket_encryption_0_default_kms_key_name_exists_4",
+      "type": "google_storage_bucket",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "encryption": [
+            {
+              "default_kms_key_name": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "address": "pac-003.azurerm_resource_group_location_in_1",
+      "type": "azurerm_resource_group",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "location": "invalid-zz"
+        }
+      }
+    },
+    {
+      "address": "pac-003.google_storage_bucket_location_in_2",
+      "type": "google_storage_bucket",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "location": "invalid-zz"
+        }
+      }
+    },
+    {
+      "address": "pac-004.aws_instance_associate_public_ip_address_eq_1",
+      "type": "aws_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "associate_public_ip_address": true
+        }
+      }
+    },
+    {
+      "address": "pac-004.azurerm_public_ip_fail",
+      "type": "azurerm_public_ip",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "id": "x"
+        }
+      }
+    },
+    {
+      "address": "pac-004.google_compute_instance_network_interface_0_access_config_absent_2",
+      "type": "google_compute_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "network_interface": [
+            {
+              "access_config": [
+                {
+                  "present": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "address": "pac-005.aws_lb_listener_protocol_in_1",
+      "type": "aws_lb_listener",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "protocol": "invalid-zz"
+        }
+      }
+    },
+    {
+      "address": "pac-005.azurerm_storage_account_enable_https_traffic_only_eq_2",
+      "type": "azurerm_storage_account",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "enable_https_traffic_only": false
+        }
+      }
+    },
+    {
+      "address": "pac-005.google_compute_ssl_policy_min_tls_version_in_3",
+      "type": "google_compute_ssl_policy",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "min_tls_version": "invalid-zz"
+        }
+      }
+    },
+    {
+      "address": "pac-006.aws_iam_access_key_fail",
+      "type": "aws_iam_access_key",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "id": "x"
+        }
+      }
+    },
+    {
+      "address": "pac-006.azurerm_storage_account_shared_access_key_enabled_eq_1",
+      "type": "azurerm_storage_account",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "shared_access_key_enabled": true
+        }
+      }
+    },
+    {
+      "address": "pac-006.google_service_account_key_fail",
+      "type": "google_service_account_key",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "id": "x"
+        }
+      }
+    },
+    {
+      "address": "pac-007.aws_cloudtrail_is_multi_region_trail_eq_1",
+      "type": "aws_cloudtrail",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "is_multi_region_trail": false,
+          "enable_log_file_validation": true
+        }
+      }
+    },
+    {
+      "address": "pac-007.aws_cloudtrail_enable_log_file_validation_eq_2",
+      "type": "aws_cloudtrail",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "is_multi_region_trail": true,
+          "enable_log_file_validation": false
+        }
+      }
+    },
+    {
+      "address": "pac-007.azurerm_monitor_diagnostic_setting_log_analytics_workspace_id_exists_3",
+      "type": "azurerm_monitor_diagnostic_setting",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {}
+      }
+    },
+    {
+      "address": "pac-007.google_project_iam_audit_config_service_eq_allServices",
+      "type": "google_project_iam_audit_config",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "service": "invalid"
+        }
+      }
+    },
+    {
+      "address": "pac-008.aws_s3_bucket_tags_all_cost_center_exists_1",
+      "type": "aws_s3_bucket",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "tags_all": {
+            "cost-center": null
+          }
+        }
+      }
+    },
+    {
+      "address": "pac-008.azurerm_resource_group_tags_cost_center_exists_2",
+      "type": "azurerm_resource_group",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "tags": {
+            "cost-center": null
+          }
+        }
+      }
+    },
+    {
+      "address": "pac-008.google_compute_instance_labels_cost_center_exists_3",
+      "type": "google_compute_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "labels": {
+            "cost-center": null
+          }
+        }
+      }
+    },
+    {
+      "address": "pac-009.aws_db_instance_publicly_accessible_eq_1",
+      "type": "aws_db_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "publicly_accessible": true
+        }
+      }
+    },
+    {
+      "address": "pac-009.azurerm_mssql_server_public_network_access_enabled_eq_2",
+      "type": "azurerm_mssql_server",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "public_network_access_enabled": true
+        }
+      }
+    },
+    {
+      "address": "pac-009.google_sql_database_instance_settings_0_ip_configuration_0_ipv4_enable",
+      "type": "google_sql_database_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "settings": [
+            {
+              "ip_configuration": [
+                {
+                  "ipv4_enabled": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "address": "pac-010.aws_vpc_security_group_ingress_rule_cidr_ipv4_ne_0.0.0.0_0",
+      "type": "aws_vpc_security_group_ingress_rule",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "cidr_ipv4": "0.0.0.0/0"
+        }
+      }
+    },
+    {
+      "address": "pac-010.azurerm_network_security_rule_source_address_prefix_ne_star",
+      "type": "azurerm_network_security_rule",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "source_address_prefix": "*"
+        }
+      }
+    },
+    {
+      "address": "pac-010.azurerm_network_security_rule_source_address_prefix_ne_0.0.0.0_0",
+      "type": "azurerm_network_security_rule",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "source_address_prefix": "0.0.0.0/0"
+        }
+      }
+    },
+    {
+      "address": "pac-010.google_compute_firewall_source_ranges_not_contains_0.0.0.0_0",
+      "type": "google_compute_firewall",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "source_ranges": [
+            "0.0.0.0/0"
+          ]
+        }
+      }
+    },
+    {
+      "address": "pac-011.aws_instance_metadata_options_0_http_tokens_eq_required",
+      "type": "aws_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "metadata_options": [
+            {
+              "http_tokens": "invalid"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "address": "pac-011.azurerm_linux_virtual_machine_disable_password_authentication_eq_2",
+      "type": "azurerm_linux_virtual_machine",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "disable_password_authentication": false
+        }
+      }
+    },
+    {
+      "address": "pac-011.google_compute_instance_metadata_enable_oslogin_eq_TRUE",
+      "type": "google_compute_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "metadata": {
+            "enable-oslogin": "invalid"
+          }
+        }
+      }
+    },
+    {
+      "address": "pac-012.aws_default_vpc_fail",
+      "type": "aws_default_vpc",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "id": "x"
+        }
+      }
+    },
+    {
+      "address": "pac-012.azurerm_subnet_default_outbound_access_enabled_eq_1",
+      "type": "azurerm_subnet",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "default_outbound_access_enabled": true
+        }
+      }
+    },
+    {
+      "address": "pac-012.google_compute_network_auto_create_subnetworks_eq_2",
+      "type": "google_compute_network",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "auto_create_subnetworks": true
+        }
+      }
+    }
+  ],
+  "configuration": {
+    "provider_config": {
+      "aws": {
+        "expressions": {
+          "region": {
+            "constant_value": "zz-invalid-1"
+          }
+        }
+      }
+    }
+  }
+}

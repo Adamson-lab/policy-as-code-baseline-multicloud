@@ -1,0 +1,43 @@
+{
+  "properties": {
+    "displayName": "PAC-012 No default network",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Networks are designed, never created implicitly with permissive defaults.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-012",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Network/virtualNetworks/subnets"
+          },
+          {
+            "field": "Microsoft.Network/virtualNetworks/subnets/defaultOutboundAccess",
+            "notEquals": false
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

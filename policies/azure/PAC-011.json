@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "displayName": "PAC-011 Hardened instance access",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "No weak instance access paths (IMDSv1, password SSH, unmanaged keys).",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-011",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Compute/virtualMachines"
+          },
+          {
+            "field": "Microsoft.Compute/virtualMachines/osProfile.linuxConfiguration",
+            "exists": true
+          },
+          {
+            "field": "Microsoft.Compute/virtualMachines/osProfile.linuxConfiguration.disablePasswordAuthentication",
+            "notEquals": true
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

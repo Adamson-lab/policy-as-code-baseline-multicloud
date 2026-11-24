@@ -1,0 +1,46 @@
+{
+  "properties": {
+    "displayName": "PAC-003 Approved regions only",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Workloads and data stay in approved jurisdictions.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-003",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "location",
+            "notIn": [
+              "eastus",
+              "eastus2",
+              "westeurope",
+              "northeurope",
+              "global"
+            ]
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

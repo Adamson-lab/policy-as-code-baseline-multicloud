@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "displayName": "PAC-005 Encryption in transit (TLS 1.2+)",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "No plaintext or legacy-TLS paths to data services.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-005",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "field": "Microsoft.Storage/storageAccounts/supportsHttpsTrafficOnly",
+            "notEquals": true
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

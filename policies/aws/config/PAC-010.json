@@ -1,0 +1,16 @@
+{
+  "ConfigRuleName": "pac-010-restricted-ingress",
+  "Source": {
+    "Owner": "AWS",
+    "SourceIdentifier": "RESTRICTED_INCOMING_TRAFFIC"
+  },
+  "InputParameters": {
+    "blockedPort1": "22",
+    "blockedPort2": "3389"
+  },
+  "Scope": {
+    "ComplianceResourceTypes": [
+      "AWS::EC2::SecurityGroup"
+    ]
+  }
+}

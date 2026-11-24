@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "displayName": "PAC-002 Customer-managed keys for data at rest",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Regulated data stores use keys the organization controls.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-002",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "field": "Microsoft.Storage/storageAccounts/encryption.keySource",
+            "notEquals": "Microsoft.Keyvault"
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

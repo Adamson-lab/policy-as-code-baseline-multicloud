@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "displayName": "PAC-008 Mandatory cost-center tag",
+    "policyType": "Custom",
+    "mode": "Indexed",
+    "description": "Every resource is attributable to a cost owner.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-008",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "field": "tags['cost-center']",
+        "exists": false
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "properties": {
+    "displayName": "PAC-007 Protect audit logging",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Audit trails cannot be switched off or bypassed.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-007",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "AuditIfNotExists",
+          "Disabled"
+        ],
+        "defaultValue": "AuditIfNotExists",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "field": "type",
+        "equals": "Microsoft.Resources/subscriptions"
+      },
+      "then": {
+        "effect": "[parameters('effect')]",
+        "details": {
+          "type": "Microsoft.Insights/diagnosticSettings",
+          "existenceCondition": {
+            "field": "Microsoft.Insights/diagnosticSettings/logs.enabled",
+            "equals": "true"
+          }
+        }
+      }
+    }
+  }
+}

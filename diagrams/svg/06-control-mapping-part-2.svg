@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1390 1266" width="1390" height="1266" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1390" height="1266" fill="#fff"/><rect width="1390" height="64" fill="#232F3E"/><rect y="64" width="1390" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">1:1 control mapping (part 2)</text>
+<text x="1350" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 06 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Controls PAC-007 to PAC-012 mapped to four engines, fidelity stated honestly</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Architect / auditor  |  Notation: Mapping matrix  |  Scope: Control catalogue</text>
+<clipPath id="gc0"><rect x="40" y="136" width="190" height="920" rx="8"/></clipPath>
+<rect x="40" y="136" width="190" height="920" rx="8" fill="#232F3E" fill-opacity=".035"/>
+<rect x="40" y="136" width="190" height="34" fill="#232F3E" fill-opacity=".12" clip-path="url(#gc0)"/>
+<rect x="48" y="142" width="22" height="22" rx="4" fill="#232F3E"/>
+<text x="59" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">TG</text>
+<text x="78" y="158" fill="#232F3E" font-size="12.5" font-weight="700">Control</text>
+<rect x="40" y="136" width="190" height="920" rx="8" fill="none" stroke="#232F3E" stroke-width="1.5" stroke-dasharray="7 4"/>
+<clipPath id="gc1"><rect x="320" y="136" width="190" height="920" rx="8"/></clipPath>
+<rect x="320" y="136" width="190" height="920" rx="8" fill="#8C4FFF" fill-opacity=".035"/>
+<rect x="320" y="136" width="190" height="34" fill="#8C4FFF" fill-opacity=".12" clip-path="url(#gc1)"/>
+<rect x="328" y="142" width="22" height="22" rx="4" fill="#8C4FFF"/>
+<text x="358" y="158" fill="#8C4FFF" font-size="12.5" font-weight="700">OPA / Rego</text>
+<rect x="320" y="136" width="190" height="920" rx="8" fill="none" stroke="#8C4FFF" stroke-width="1.5" stroke-dasharray="7 4"/>
+<clipPath id="gc2"><rect x="600" y="136" width="190" height="920" rx="8"/></clipPath>
+<rect x="600" y="136" width="190" height="920" rx="8" fill="#ED7100" fill-opacity=".035"/>
+<rect x="600" y="136" width="190" height="34" fill="#ED7100" fill-opacity=".12" clip-path="url(#gc2)"/>
+<rect x="608" y="142" width="22" height="22" rx="4" fill="#ED7100"/>
+<text x="619" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="638" y="158" fill="#ED7100" font-size="12.5" font-weight="700">AWS SCP / Config</text>
+<rect x="600" y="136" width="190" height="920" rx="8" fill="none" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<clipPath id="gc3"><rect x="880" y="136" width="190" height="920" rx="8"/></clipPath>
+<rect x="880" y="136" width="190" height="920" rx="8" fill="#0078D4" fill-opacity=".035"/>
+<rect x="880" y="136" width="190" height="34" fill="#0078D4" fill-opacity=".12" clip-path="url(#gc3)"/>
+<rect x="888" y="142" width="22" height="22" rx="4" fill="#0078D4"/>
+<text x="899" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">AZ</text>
+<text x="918" y="158" fill="#0078D4" font-size="12.5" font-weight="700">Azure Policy</text>
+<rect x="880" y="136" width="190" height="920" rx="8" fill="none" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="7 4"/>
+<clipPath id="gc4"><rect x="1160" y="136" width="190" height="920" rx="8"/></clipPath>
+<rect x="1160" y="136" width="190" height="920" rx="8" fill="#1A73E8" fill-opacity=".035"/>
+<rect x="1160" y="136" width="190" height="34" fill="#1A73E8" fill-opacity=".12" clip-path="url(#gc4)"/>
+<rect x="1168" y="142" width="22" height="22" rx="4" fill="#1A73E8"/>
+<text x="1179" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="1198" y="158" fill="#1A73E8" font-size="12.5" font-weight="700">GCP Org Policy</text>
+<rect x="1160" y="136" width="190" height="920" rx="8" fill="none" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<line x1="135" y1="205" x2="1255" y2="205" stroke="#C5CCD4" stroke-width="3" stroke-linecap="round"/>
+<line x1="135" y1="355" x2="1255" y2="355" stroke="#C5CCD4" stroke-width="3" stroke-linecap="round"/>
+<line x1="135" y1="505" x2="1255" y2="505" stroke="#C5CCD4" stroke-width="3" stroke-linecap="round"/>
+<line x1="135" y1="655" x2="1255" y2="655" stroke="#C5CCD4" stroke-width="3" stroke-linecap="round"/>
+<line x1="135" y1="805" x2="1255" y2="805" stroke="#C5CCD4" stroke-width="3" stroke-linecap="round"/>
+<line x1="135" y1="955" x2="1255" y2="955" stroke="#C5CCD4" stroke-width="3" stroke-linecap="round"/>
+<g filter="url(#sh)"><rect x="112.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">007</text>
+<text x="135.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Protect audit logging</text>
+<text x="135.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-007 critical</text>
+<g filter="url(#sh)"><rect x="112.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">008</text>
+<text x="135.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Cost-center tag</text>
+<text x="135.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-008 medium</text>
+<g filter="url(#sh)"><rect x="112.0" y="482" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">009</text>
+<text x="135.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">No public databases</text>
+<text x="135.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-009 critical</text>
+<g filter="url(#sh)"><rect x="112.0" y="632" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">010</text>
+<text x="135.0" y="694" fill="#232F3E" font-size="11.0" font-weight="600" text-anchor="middle">No world-open ingress</text>
+<text x="135.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-010 critical</text>
+<g filter="url(#sh)"><rect x="112.0" y="782" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">011</text>
+<text x="135.0" y="844" fill="#232F3E" font-size="9.5" font-weight="600" text-anchor="middle">Hardened instance access</text>
+<text x="135.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-011 high</text>
+<g filter="url(#sh)"><rect x="112.0" y="932" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">012</text>
+<text x="135.0" y="994" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">No default network</text>
+<text x="135.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-012 medium</text>
+<g filter="url(#sh)"><rect x="392.0" y="182" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="392.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="415.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Plan gate</text>
+<text x="415.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">4 rules, generated</text>
+<g filter="url(#sh)"><rect x="392.0" y="332" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="392.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="415.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Plan gate</text>
+<text x="415.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">3 rules, generated</text>
+<g filter="url(#sh)"><rect x="392.0" y="482" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="392.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="415.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Plan gate</text>
+<text x="415.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">3 rules, generated</text>
+<g filter="url(#sh)"><rect x="392.0" y="632" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="392.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="415.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Plan gate</text>
+<text x="415.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">4 rules, generated</text>
+<g filter="url(#sh)"><rect x="392.0" y="782" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="392.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="415.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Plan gate</text>
+<text x="415.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">3 rules, generated</text>
+<g filter="url(#sh)"><rect x="392.0" y="932" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="392.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="415.0" y="994" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Plan gate</text>
+<text x="415.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">3 rules, generated</text>
+<g filter="url(#sh)"><rect x="672.0" y="182" width="46" height="46" rx="7" fill="#7AA116"/><rect x="672.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="695.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="695.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SCP: guard CloudTrail</text>
+<text x="695.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<g filter="url(#sh)"><rect x="672.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="672.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="695.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="695.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SCP: RequestTag</text>
+<text x="695.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / partial</text>
+<g filter="url(#sh)"><rect x="672.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="672.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="695.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="695.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Config: RDS public</text>
+<text x="695.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / compensating</text>
+<g filter="url(#sh)"><rect x="672.0" y="632" width="46" height="46" rx="7" fill="#DD344C"/><rect x="672.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="695.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="695.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Config: open ingress</text>
+<text x="695.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / compensating</text>
+<g filter="url(#sh)"><rect x="672.0" y="782" width="46" height="46" rx="7" fill="#ED7100"/><rect x="672.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="695.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="695.0" y="844" fill="#232F3E" font-size="11.3" font-weight="600" text-anchor="middle">SCP: IMDSv2 required</text>
+<text x="695.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / partial</text>
+<g filter="url(#sh)"><rect x="672.0" y="932" width="46" height="46" rx="7" fill="#7AA116"/><rect x="672.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="695.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="695.0" y="994" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SCP: default VPC</text>
+<text x="695.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<g filter="url(#sh)"><rect x="952.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="952.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="975.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="975.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">AuditIfNotExists</text>
+<text x="975.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / partial</text>
+<g filter="url(#sh)"><rect x="952.0" y="332" width="46" height="46" rx="7" fill="#7AA116"/><rect x="952.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="975.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">AZ</text>
+<text x="975.0" y="394" fill="#232F3E" font-size="11.3" font-weight="600" text-anchor="middle">Require tag (Indexed)</text>
+<text x="975.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<g filter="url(#sh)"><rect x="952.0" y="482" width="46" height="46" rx="7" fill="#7AA116"/><rect x="952.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="975.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">AZ</text>
+<text x="975.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SQL publicNetwork</text>
+<text x="975.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<g filter="url(#sh)"><rect x="952.0" y="632" width="46" height="46" rx="7" fill="#7AA116"/><rect x="952.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="975.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">AZ</text>
+<text x="975.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">NSG source deny</text>
+<text x="975.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<g filter="url(#sh)"><rect x="952.0" y="782" width="46" height="46" rx="7" fill="#ED7100"/><rect x="952.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="975.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">AZ</text>
+<text x="975.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">VM password auth</text>
+<text x="975.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / partial</text>
+<g filter="url(#sh)"><rect x="952.0" y="932" width="46" height="46" rx="7" fill="#ED7100"/><rect x="952.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="975.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="975.0" y="994" fill="#232F3E" font-size="10.7" font-weight="600" text-anchor="middle">Subnet outbound audit</text>
+<text x="975.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / partial</text>
+<g filter="url(#sh)"><rect x="1232.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="1232.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1255.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="1255.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Aggregated log sink</text>
+<text x="1255.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">compensati / compensating</text>
+<g filter="url(#sh)"><rect x="1232.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1232.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1255.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="1255.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Custom constraint</text>
+<text x="1255.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">custom-con / partial</text>
+<g filter="url(#sh)"><rect x="1232.0" y="482" width="46" height="46" rx="7" fill="#7AA116"/><rect x="1232.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1255.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ORG</text>
+<text x="1255.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">sql.restrictPublicIp</text>
+<text x="1255.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<g filter="url(#sh)"><rect x="1232.0" y="632" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1232.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1255.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="1255.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Custom: firewall CEL</text>
+<text x="1255.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">custom-con / partial</text>
+<g filter="url(#sh)"><rect x="1232.0" y="782" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1232.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1255.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ORG</text>
+<text x="1255.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">requireOsLogin</text>
+<text x="1255.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / partial</text>
+<g filter="url(#sh)"><rect x="1232.0" y="932" width="46" height="46" rx="7" fill="#7AA116"/><rect x="1232.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1255.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ORG</text>
+<text x="1255.0" y="994" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">skipDefaultNetwork</text>
+<text x="1255.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
+<line x1="40" y1="1110" x2="1350" y2="1110" stroke="#D5DBDB"/><text x="40" y="1130" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="1118" width="16" height="16" rx="3" fill="#E7157B"/><text x="132" y="1130" font-size="10.5" fill="#232F3E">Control</text>
+<rect x="191.95421875" y="1118" width="16" height="16" rx="3" fill="#3B48CC"/><text x="213.95421875" y="1130" font-size="10.5" fill="#232F3E">OPA / Rego (Terraform plan)</text>
+<rect x="381.645" y="1118" width="16" height="16" rx="3" fill="#7AA116"/><text x="403.645" y="1130" font-size="10.5" fill="#232F3E">Full fidelity</text>
+<rect x="482.84046875" y="1118" width="16" height="16" rx="3" fill="#ED7100"/><text x="504.84046875" y="1130" font-size="10.5" fill="#232F3E">Partial (gap documented)</text>
+<rect x="660.574375" y="1118" width="16" height="16" rx="3" fill="#DD344C"/><text x="682.574375" y="1130" font-size="10.5" fill="#232F3E">Compensating control</text>
+<line x1="110" y1="1152" x2="144" y2="1152" stroke="#232F3E" stroke-width="2"/><text x="152" y="1156" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="246.479765625" y1="1152" x2="280.479765625" y2="1152" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="1156" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="387.144765625" y1="1152" x2="421.144765625" y2="1152" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="1156" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="526.516953125" y1="1152" x2="560.516953125" y2="1152" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="1156" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="702.9393749999999" y="1144" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="1156" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="1232" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Every row exists in all four engines. Colour = fidelity; gaps are documented in docs/mapping-matrix.md and enforced by tools/verify_parity.py.</text>
+<text x="40" y="1258" font-size="9.5" fill="#8A94A6">Policy-as-Code Baseline (multicloud) | Adamson-lab | Diagram 06 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

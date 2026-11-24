@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1192" width="1180" height="1192" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1180" height="1192" fill="#fff"/><rect width="1180" height="64" fill="#232F3E"/><rect y="64" width="1180" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">Threat model (STRIDE) for the policy plane</text>
+<text x="1140" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 17 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Attacks on the guardrails themselves, and the control answering each</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Security / architect  |  Notation: STRIDE + data flow  |  Scope: Policy plane</text>
+<clipPath id="gc0"><rect x="40" y="136" width="190" height="770" rx="8"/></clipPath>
+<rect x="40" y="136" width="190" height="770" rx="8" fill="#DD344C" fill-opacity=".035"/>
+<rect x="40" y="136" width="190" height="34" fill="#DD344C" fill-opacity=".12" clip-path="url(#gc0)"/>
+<rect x="48" y="142" width="22" height="22" rx="4" fill="#DD344C"/>
+<text x="59" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">!</text>
+<text x="78" y="158" fill="#DD344C" font-size="12.5" font-weight="700">Threats</text>
+<rect x="40" y="136" width="190" height="770" rx="8" fill="none" stroke="#DD344C" stroke-width="1.5" stroke-dasharray="7 4"/>
+<clipPath id="gc1"><rect x="320" y="136" width="390" height="470" rx="8"/></clipPath>
+<rect x="320" y="136" width="390" height="470" rx="8" fill="#ED7100" fill-opacity=".035"/>
+<rect x="320" y="136" width="390" height="34" fill="#ED7100" fill-opacity=".12" clip-path="url(#gc1)"/>
+<rect x="328" y="142" width="22" height="22" rx="4" fill="#ED7100"/>
+<text x="339" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="358" y="158" fill="#ED7100" font-size="12.5" font-weight="700">Targets</text>
+<rect x="320" y="136" width="390" height="470" rx="8" fill="none" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<clipPath id="gc2"><rect x="800" y="136" width="190" height="770" rx="8"/></clipPath>
+<rect x="800" y="136" width="190" height="770" rx="8" fill="#3F8624" fill-opacity=".035"/>
+<rect x="800" y="136" width="190" height="34" fill="#3F8624" fill-opacity=".12" clip-path="url(#gc2)"/>
+<rect x="808" y="142" width="22" height="22" rx="4" fill="#3F8624"/>
+<text x="819" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">OK</text>
+<text x="838" y="158" fill="#3F8624" font-size="12.5" font-weight="700">Mitigations</text>
+<rect x="800" y="136" width="190" height="770" rx="8" fill="none" stroke="#3F8624" stroke-width="1.5" stroke-dasharray="7 4"/>
+<path d="M158.0,205.0 L392.0,205.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M158.0,345.0 L308.0,345.0 Q315.0,345.0 315.0,338.0 L315.0,312.0 Q315.0,305.0 322.0,305.0 L598.0,305.0 Q605.0,305.0 605.0,298.0 L605.0,286.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M158.0,495.0 L308.0,495.0 Q315.0,495.0 315.0,488.0 L315.0,372.0 Q315.0,365.0 322.0,365.0 L392.0,365.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M158.0,645.0 L598.0,645.0 Q605.0,645.0 605.0,638.0 L605.0,436.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M158.0,795.0 L398.0,795.0 Q405.0,795.0 405.0,788.0 L405.0,586.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M425.0,286.0 L425.0,308.0 Q425.0,315.0 432.0,315.0 L878.0,315.0 Q885.0,315.0 885.0,308.0 L885.0,286.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M638.0,215.0 L788.0,215.0 Q795.0,215.0 795.0,222.0 L795.0,338.0 Q795.0,345.0 802.0,345.0 L872.0,345.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M438.0,365.0 L518.0,365.0 Q525.0,365.0 525.0,372.0 L525.0,488.0 Q525.0,495.0 532.0,495.0 L872.0,495.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M625.0,436.0 L625.0,638.0 Q625.0,645.0 632.0,645.0 L872.0,645.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M425.0,586.0 L425.0,788.0 Q425.0,795.0 432.0,795.0 L872.0,795.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<g filter="url(#sh)"><rect x="112.0" y="182" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">T</text>
+<text x="135.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T1 Weaken a policy</text>
+<text x="135.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">malicious PR</text>
+<g filter="url(#sh)"><rect x="112.0" y="332" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">E</text>
+<text x="135.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T2 Bypass via admin</text>
+<text x="135.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">break-glass abuse</text>
+<g filter="url(#sh)"><rect x="112.0" y="482" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">T</text>
+<text x="135.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T3 Detach guardrail</text>
+<text x="135.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">API call</text>
+<g filter="url(#sh)"><rect x="112.0" y="632" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">R</text>
+<text x="135.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T4 Stale exemption</text>
+<text x="135.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">never expires</text>
+<g filter="url(#sh)"><rect x="112.0" y="782" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="135.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S</text>
+<text x="135.0" y="844" fill="#232F3E" font-size="9.1" font-weight="600" text-anchor="middle">T5 Pipeline credential theft</text>
+<text x="135.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">token abuse</text>
+<g filter="url(#sh)"><rect x="392.0" y="182" width="46" height="46" rx="7" fill="#7AA116"/><rect x="392.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">GIT</text>
+<text x="415.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy repository</text>
+<g filter="url(#sh)"><rect x="592.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="592.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="615.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
+<text x="615.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Admin roles</text>
+<g filter="url(#sh)"><rect x="392.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="392.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">POL</text>
+<text x="415.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy attachments</text>
+<g filter="url(#sh)"><rect x="592.0" y="332" width="46" height="46" rx="7" fill="#7AA116"/><rect x="592.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="615.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EXC</text>
+<text x="615.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Exception register</text>
+<g filter="url(#sh)"><rect x="392.0" y="482" width="46" height="46" rx="7" fill="#ED7100"/><rect x="392.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="415.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CI</text>
+<text x="415.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Release pipeline</text>
+<g filter="url(#sh)"><rect x="872.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="895.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">REV</text>
+<text x="895.0" y="244" fill="#232F3E" font-size="9.3" font-weight="600" text-anchor="middle">Code owners + parity gate</text>
+<text x="895.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">2 reviewers</text>
+<g filter="url(#sh)"><rect x="872.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="895.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">BG</text>
+<text x="895.0" y="394" fill="#232F3E" font-size="11.3" font-weight="600" text-anchor="middle">MFA + alarm + review</text>
+<text x="895.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">24h expiry</text>
+<g filter="url(#sh)"><rect x="872.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="895.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="895.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Org-level deny</text>
+<text x="895.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">guards policy APIs</text>
+<g filter="url(#sh)"><rect x="872.0" y="632" width="46" height="46" rx="7" fill="#ED7100"/><rect x="872.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="895.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EXP</text>
+<text x="895.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Expiry sweeper</text>
+<text x="895.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">forced removal</text>
+<g filter="url(#sh)"><rect x="872.0" y="782" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="895.0" y="810.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OIDC</text>
+<text x="895.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">OIDC, env approval</text>
+<text x="895.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">no stored keys</text>
+<circle cx="273.0" cy="205.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="273.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="370.0" cy="305.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="370.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="315.0" cy="470.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="315.0" y="473.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="488.0" cy="645.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="488.0" y="648.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="388.0" cy="795.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="388.0" y="798.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="705.0" cy="315.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="705.0" y="318.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="795.0" cy="240.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="795.0" y="243.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="590.0" cy="495.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="590.0" y="498.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="645.0" cy="645.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="645.0" y="648.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="545.0" cy="795.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="545.0" y="798.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<line x1="40" y1="960" x2="1140" y2="960" stroke="#D5DBDB"/><text x="40" y="980" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="968" width="16" height="16" rx="3" fill="#5A6B86"/><text x="132" y="980" font-size="10.5" fill="#232F3E">External system</text>
+<rect x="238.861328125" y="968" width="16" height="16" rx="3" fill="#7AA116"/><text x="260.861328125" y="980" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="323.945859375" y="968" width="16" height="16" rx="3" fill="#DD344C"/><text x="345.945859375" y="980" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="461.3384375" y="968" width="16" height="16" rx="3" fill="#ED7100"/><text x="483.3384375" y="980" font-size="10.5" fill="#232F3E">Compute</text>
+<line x1="110" y1="1002" x2="144" y2="1002" stroke="#232F3E" stroke-width="2"/><text x="152" y="1006" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="246.479765625" y1="1002" x2="280.479765625" y2="1002" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="1006" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="387.144765625" y1="1002" x2="421.144765625" y2="1002" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="1006" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="526.516953125" y1="1002" x2="560.516953125" y2="1002" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="1006" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="702.9393749999999" y="994" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="1006" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="1038" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="1046" r="8" fill="#DD344C"/><text x="48.0" y="1049.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="1050" font-size="10.5" fill="#232F3E">targets  (T1 Weaken a policy &gt; Policy repository)</text>
+<circle cx="48.0" cy="1065" r="8" fill="#DD344C"/><text x="48.0" y="1068.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="1069" font-size="10.5" fill="#232F3E">targets  (T2 Bypass via admin &gt; Admin roles)</text>
+<circle cx="48.0" cy="1084" r="8" fill="#DD344C"/><text x="48.0" y="1087.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="1088" font-size="10.5" fill="#232F3E">targets  (T3 Detach guardrail &gt; Policy attachments)</text>
+<circle cx="48.0" cy="1103" r="8" fill="#DD344C"/><text x="48.0" y="1106.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="1107" font-size="10.5" fill="#232F3E">targets  (T4 Stale exemption &gt; Exception register)</text>
+<circle cx="414.6666666666667" cy="1046" r="8" fill="#DD344C"/><text x="414.6666666666667" y="1049.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="428.6666666666667" y="1050" font-size="10.5" fill="#232F3E">targets  (T5 Pipeline credential theft &gt; Release pipeline)</text>
+<circle cx="414.6666666666667" cy="1065" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1068.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="428.6666666666667" y="1069" font-size="10.5" fill="#232F3E">protected by  (Policy repository &gt; Code owners + parity gate)</text>
+<circle cx="414.6666666666667" cy="1084" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1087.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="428.6666666666667" y="1088" font-size="10.5" fill="#232F3E">protected by  (Admin roles &gt; MFA + alarm + review)</text>
+<circle cx="414.6666666666667" cy="1103" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1106.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="428.6666666666667" y="1107" font-size="10.5" fill="#232F3E">protected by  (Policy attachments &gt; Org-level deny)</text>
+<circle cx="781.3333333333334" cy="1046" r="8" fill="#3F8624"/><text x="781.3333333333334" y="1049.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="795.3333333333334" y="1050" font-size="10.5" fill="#232F3E">protected by  (Exception register &gt; Expiry sweeper)</text>
+<circle cx="781.3333333333334" cy="1065" r="8" fill="#3F8624"/><text x="781.3333333333334" y="1068.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="795.3333333333334" y="1069" font-size="10.5" fill="#232F3E">protected by  (Release pipeline &gt; OIDC, env approval)</text>
+<text x="40" y="1158" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Residual: an organization owner can still remove any control. Detective alarms on policy-API calls make it visible within minutes (risk R-04).</text>
+<text x="40" y="1184" font-size="9.5" fill="#8A94A6">Policy-as-Code Baseline (multicloud) | Adamson-lab | Diagram 17 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

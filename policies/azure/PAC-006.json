@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "displayName": "PAC-006 No long-lived credentials",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Workloads authenticate with short-lived, federated identity.",
+    "metadata": {
+      "category": "Policy-as-Code Baseline",
+      "controlId": "PAC-006",
+      "version": "1.0.0"
+    },
+    "parameters": {
+      "effect": {
+        "type": "String",
+        "allowedValues": [
+          "Audit",
+          "Deny",
+          "Disabled"
+        ],
+        "defaultValue": "Audit",
+        "metadata": {
+          "displayName": "Effect"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Storage/storageAccounts"
+          },
+          {
+            "field": "Microsoft.Storage/storageAccounts/allowSharedKeyAccess",
+            "notEquals": false
+          }
+        ]
+      },
+      "then": {
+        "effect": "[parameters('effect')]"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "organizations/ORG_ID/policies/gcp.restrictNonCmekServices",
+  "spec": {
+    "rules": [
+      {
+        "values": {
+          "deniedValues": [
+            "storage.googleapis.com",
+            "bigquery.googleapis.com",
+            "compute.googleapis.com"
+          ]
+        }
+      }
+    ]
+  }
+}

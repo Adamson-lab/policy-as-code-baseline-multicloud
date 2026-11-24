@@ -1,0 +1,10 @@
+{
+  "name": "organizations/ORG_ID/policies/sql.restrictPublicIp",
+  "dryRunSpec": {
+    "rules": [
+      {
+        "enforce": true
+      }
+    ]
+  }
+}

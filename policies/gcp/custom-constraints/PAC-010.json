@@ -1,0 +1,35 @@
+{
+  "constraint": {
+    "name": "organizations/ORG_ID/customConstraints/custom.pac010DenyWorldOpenIngress",
+    "resourceTypes": [
+      "compute.googleapis.com/Firewall"
+    ],
+    "methodTypes": [
+      "CREATE",
+      "UPDATE"
+    ],
+    "condition": "resource.direction == 'INGRESS' && resource.sourceRanges.exists(r, r == '0.0.0.0/0')",
+    "actionType": "DENY",
+    "displayName": "PAC-010 deny world-open ingress"
+  },
+  "policy": {
+    "name": "organizations/ORG_ID/policies/custom.pac010DenyWorldOpenIngress",
+    "spec": {
+      "rules": [
+        {
+          "enforce": true
+        }
+      ]
+    }
+  },
+  "policyDryRun": {
+    "name": "organizations/ORG_ID/policies/custom.pac010DenyWorldOpenIngress",
+    "dryRunSpec": {
+      "rules": [
+        {
+          "enforce": true
+        }
+      ]
+    }
+  }
+}

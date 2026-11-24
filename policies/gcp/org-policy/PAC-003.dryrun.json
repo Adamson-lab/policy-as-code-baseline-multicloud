@@ -1,0 +1,15 @@
+{
+  "name": "organizations/ORG_ID/policies/gcp.resourceLocations",
+  "dryRunSpec": {
+    "rules": [
+      {
+        "values": {
+          "allowedValues": [
+            "in:us-locations",
+            "in:eu-locations"
+          ]
+        }
+      }
+    ]
+  }
+}

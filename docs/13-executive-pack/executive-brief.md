@@ -1,0 +1,4 @@
+# Executive brief
+**Problem:** guardrails differ by cloud and cannot be proven equivalent. **Decision:** fund Wave 0-1. **Options:** do nothing; buy a CSPM only; build the catalogue-generated baseline (recommended); enforce immediately everywhere (rejected, risk). **Risk:** enforcement outages (mitigated by audit-first). **Value:** provable consistency and audit-ready evidence.
+## FAQ
+1. *Does it block deployments?* Only after audit mode, impact review and wave gates. 2. *Is it identical on all clouds?* No: the matrix states full/partial/compensating per engine. 3. *What if we need an exception?* Time-boxed waiver, max 90 days. 4. *What if the pipeline is compromised?* OIDC, protected environments, two reviewers, signed releases; residual risk documented. 5. *What is not done yet?* Live sandbox execution, `opa test` and `terraform validate` runs.

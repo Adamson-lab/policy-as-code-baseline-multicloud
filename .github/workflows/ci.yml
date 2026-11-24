@@ -1,0 +1,37 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  generate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python3 tools/build_policies.py && git diff --exit-code   # generated files must be committed
+      - run: python3 tools/verify_parity.py
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 tools/evaluate_plan.py examples/plan-compliant.json
+      - run: "! python3 tools/evaluate_plan.py examples/plan-noncompliant.json"
+      - run: python3 diagrams/src/gen.py && git diff --exit-code diagrams docs/diagram-index.md
+  opa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: open-policy-agent/setup-opa@v2
+        with: {version: "0.70.0"}
+      - run: opa test policies/rego -v
+      - run: opa check --strict policies/rego
+  terraform:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: {module: [aws, azure, gcp]}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+      - run: terraform -chdir=infra/modules/${{ matrix.module }} init -backend=false
+      - run: terraform -chdir=infra/modules/${{ matrix.module }} validate

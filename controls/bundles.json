@@ -1,0 +1,18 @@
+[
+  {
+    "file": "policies/aws/scp/bundles/pac-bundle-1.json",
+    "controls": [
+      "PAC-001",
+      "PAC-002",
+      "PAC-003",
+      "PAC-004",
+      "PAC-005",
+      "PAC-006",
+      "PAC-007",
+      "PAC-008",
+      "PAC-011",
+      "PAC-012"
+    ],
+    "chars": 2174
+  }
+]

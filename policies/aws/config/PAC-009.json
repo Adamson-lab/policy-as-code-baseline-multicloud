@@ -1,0 +1,12 @@
+{
+  "ConfigRuleName": "pac-009-rds-public-access",
+  "Source": {
+    "Owner": "AWS",
+    "SourceIdentifier": "RDS_INSTANCE_PUBLIC_ACCESS_CHECK"
+  },
+  "Scope": {
+    "ComplianceResourceTypes": [
+      "AWS::RDS::DBInstance"
+    ]
+  }
+}

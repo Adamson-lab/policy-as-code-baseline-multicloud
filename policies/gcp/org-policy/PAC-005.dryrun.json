@@ -1,0 +1,15 @@
+{
+  "name": "organizations/ORG_ID/policies/gcp.restrictTLSVersion",
+  "dryRunSpec": {
+    "rules": [
+      {
+        "values": {
+          "deniedValues": [
+            "TLS_VERSION_1",
+            "TLS_VERSION_1_1"
+          ]
+        }
+      }
+    ]
+  }
+}

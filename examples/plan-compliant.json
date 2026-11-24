@@ -1,0 +1,329 @@
+{
+  "resource_changes": [
+    {
+      "address": "aws_s3_bucket_public_access_block.compliant",
+      "type": "aws_s3_bucket_public_access_block",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "block_public_acls": true,
+          "block_public_policy": true,
+          "ignore_public_acls": true,
+          "restrict_public_buckets": true
+        }
+      }
+    },
+    {
+      "address": "azurerm_storage_account.compliant",
+      "type": "azurerm_storage_account",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "allow_nested_items_to_be_public": false,
+          "enable_https_traffic_only": true,
+          "shared_access_key_enabled": false
+        }
+      }
+    },
+    {
+      "address": "google_storage_bucket.compliant",
+      "type": "google_storage_bucket",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "public_access_prevention": "enforced",
+          "encryption": [
+            {
+              "default_kms_key_name": "x"
+            }
+          ],
+          "location": "US"
+        }
+      }
+    },
+    {
+      "address": "aws_ebs_volume.compliant",
+      "type": "aws_ebs_volume",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "encrypted": true
+        }
+      }
+    },
+    {
+      "address": "aws_db_instance.compliant",
+      "type": "aws_db_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "storage_encrypted": true,
+          "publicly_accessible": false
+        }
+      }
+    },
+    {
+      "address": "azurerm_managed_disk.compliant",
+      "type": "azurerm_managed_disk",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "disk_encryption_set_id": "x"
+        }
+      }
+    },
+    {
+      "address": "azurerm_resource_group.compliant",
+      "type": "azurerm_resource_group",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "location": "eastus",
+          "tags": {
+            "cost-center": "x"
+          }
+        }
+      }
+    },
+    {
+      "address": "aws_instance.compliant",
+      "type": "aws_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "associate_public_ip_address": false,
+          "metadata_options": [
+            {
+              "http_tokens": "required"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "address": "aws_lb_listener.compliant",
+      "type": "aws_lb_listener",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "protocol": "HTTPS"
+        }
+      }
+    },
+    {
+      "address": "google_compute_ssl_policy.compliant",
+      "type": "google_compute_ssl_policy",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "min_tls_version": "TLS_1_2"
+        }
+      }
+    },
+    {
+      "address": "aws_cloudtrail.compliant",
+      "type": "aws_cloudtrail",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "is_multi_region_trail": true,
+          "enable_log_file_validation": true
+        }
+      }
+    },
+    {
+      "address": "azurerm_monitor_diagnostic_setting.compliant",
+      "type": "azurerm_monitor_diagnostic_setting",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "log_analytics_workspace_id": "x"
+        }
+      }
+    },
+    {
+      "address": "google_project_iam_audit_config.compliant",
+      "type": "google_project_iam_audit_config",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "service": "allServices"
+        }
+      }
+    },
+    {
+      "address": "aws_s3_bucket.compliant",
+      "type": "aws_s3_bucket",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "tags_all": {
+            "cost-center": "x"
+          }
+        }
+      }
+    },
+    {
+      "address": "google_compute_instance.compliant",
+      "type": "google_compute_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "labels": {
+            "cost-center": "x"
+          },
+          "metadata": {
+            "enable-oslogin": "TRUE"
+          }
+        }
+      }
+    },
+    {
+      "address": "azurerm_mssql_server.compliant",
+      "type": "azurerm_mssql_server",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "public_network_access_enabled": false
+        }
+      }
+    },
+    {
+      "address": "google_sql_database_instance.compliant",
+      "type": "google_sql_database_instance",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "settings": [
+            {
+              "ip_configuration": [
+                {
+                  "ipv4_enabled": false
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "address": "aws_vpc_security_group_ingress_rule.compliant",
+      "type": "aws_vpc_security_group_ingress_rule",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "cidr_ipv4": "10.0.0.0/8"
+        }
+      }
+    },
+    {
+      "address": "azurerm_network_security_rule.compliant",
+      "type": "azurerm_network_security_rule",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "source_address_prefix": "10.0.0.0/8"
+        }
+      }
+    },
+    {
+      "address": "google_compute_firewall.compliant",
+      "type": "google_compute_firewall",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "source_ranges": [
+            "10.0.0.0/8"
+          ]
+        }
+      }
+    },
+    {
+      "address": "azurerm_linux_virtual_machine.compliant",
+      "type": "azurerm_linux_virtual_machine",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "disable_password_authentication": true
+        }
+      }
+    },
+    {
+      "address": "azurerm_subnet.compliant",
+      "type": "azurerm_subnet",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "default_outbound_access_enabled": false
+        }
+      }
+    },
+    {
+      "address": "google_compute_network.compliant",
+      "type": "google_compute_network",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "auto_create_subnetworks": false
+        }
+      }
+    }
+  ],
+  "configuration": {
+    "provider_config": {
+      "aws": {
+        "expressions": {
+          "region": {
+            "constant_value": "us-east-1"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+name: deploy-guardrails
+on:
+  workflow_dispatch:
+    inputs:
+      cloud: {description: "aws | azure | gcp", required: true}
+      mode:  {description: "audit | enforce", required: true, default: audit}
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    environment: guardrails-${{ inputs.mode }}   # protected environment: two reviewers required for enforce
+    steps:
+      - uses: actions/checkout@v4
+      # Authenticate with OIDC for the selected cloud (aws-actions/configure-aws-credentials, azure/login, google-github-actions/auth),
+      # then run terraform apply in infra/environments/<scope>. Intentionally left unconfigured until sandbox identities exist.
+      - run: echo "Deploy ${{ inputs.cloud }} in ${{ inputs.mode }} mode (configure OIDC first)"

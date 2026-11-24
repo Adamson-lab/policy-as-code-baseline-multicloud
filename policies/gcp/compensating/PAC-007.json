@@ -1,0 +1,15 @@
+{
+  "aggregatedSink": {
+    "parent": "organizations/ORG_ID",
+    "includeChildren": true,
+    "destination": "storage.googleapis.com/ORG_AUDIT_BUCKET"
+  },
+  "auditConfig": {
+    "service": "allServices",
+    "logTypes": [
+      "ADMIN_READ",
+      "DATA_READ",
+      "DATA_WRITE"
+    ]
+  }
+}
