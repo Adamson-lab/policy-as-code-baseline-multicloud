@@ -20,16 +20,24 @@ GICON = {"aws": "AWS", "az": "AZ", "gcp": "GCP", "ctl": "TG", "sec": "!", "grn":
 ESTYLE = {"": ("#232F3E", "", "m0"), "dash": ("#5A6B86", "7 5", "m1"), "red": ("#DD344C", "", "m2"), "ok": ("#3F8624", "", "m3")}
 FONT = "'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif"
 DIRS = [(1, 0), (0, 1), (-1, 0), (0, -1)]  # E S W N
-try:
-    from PIL import ImageFont
-    _F = {b: ImageFont.truetype(f"/usr/share/fonts/truetype/dejavu/DejaVuSans{'-Bold' if b else ''}.ttf", 100) for b in (False, True)}
-except Exception:
-    _F = None
 WARN = []
 
 
+def _cw(ch):
+    """deterministic glyph width in em (Arial/Segoe-like). No font library, so output is identical on every machine."""
+    if ch in "ijl|!.,:;'`":
+        return 0.27
+    if ch in " ()[]{}/\\-tfrI":
+        return 0.34
+    if ch in "mwMW@":
+        return 0.86
+    if ch.isupper():
+        return 0.67
+    return 0.57 if ch.isdigit() else 0.54
+
+
 def tw(t, size, bold=False):
-    return (_F[bold].getlength(t) * size / 100) if _F else len(t) * size * (0.62 if bold else 0.56)
+    return sum(_cw(c) for c in t) * size * (1.06 if bold else 1.0)
 
 
 def fit(t, size, bold, maxw, minsize=9.0):

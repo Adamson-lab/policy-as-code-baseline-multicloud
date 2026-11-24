@@ -52,7 +52,7 @@
 <text x="135.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">author cannot approve</text>
 <g filter="url(#sh)"><rect x="112.0" y="332" width="46" height="46" rx="7" fill="#232F3E"/><rect x="112.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ENV</text>
-<text x="135.0" y="394" fill="#232F3E" font-size="10.7" font-weight="600" text-anchor="middle">Protected environment</text>
+<text x="135.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Protected environment</text>
 <text x="135.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">two reviewers</text>
 <g filter="url(#sh)"><rect x="112.0" y="482" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="510.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">OIDC</text>
@@ -61,7 +61,7 @@
 <g filter="url(#sh)"><rect x="392.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="392.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="415.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">STS</text>
 <text x="415.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">STS</text>
-<text x="415.0" y="257" fill="#5A6B86" font-size="9.7" font-weight="400" text-anchor="middle">AssumeRoleWithWebIdentity</text>
+<text x="415.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">AssumeRoleWithWebIdentity</text>
 <g filter="url(#sh)"><rect x="392.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="392.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="415.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
 <text x="415.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy deploy role</text>
@@ -80,7 +80,7 @@
 <text x="695.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Resource Policy Contributor</text>
 <g filter="url(#sh)"><rect x="952.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="952.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="975.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">WIF</text>
-<text x="975.0" y="244" fill="#232F3E" font-size="10.9" font-weight="600" text-anchor="middle">Workload identity pool</text>
+<text x="975.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Workload identity pool</text>
 <text x="975.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">GitHub provider</text>
 <g filter="url(#sh)"><rect x="952.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="952.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="975.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SA</text>
@@ -97,14 +97,14 @@
 <circle cx="415.0" cy="457.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="415.0" y="460.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
 <line x1="40" y1="660" x2="1140" y2="660" stroke="#D5DBDB"/><text x="40" y="680" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
 <rect x="110" y="668" width="16" height="16" rx="3" fill="#232F3E"/><text x="132" y="680" font-size="10.5" fill="#232F3E">People</text>
-<rect x="188.88625" y="668" width="16" height="16" rx="3" fill="#5A6B86"/><text x="210.88625" y="680" font-size="10.5" fill="#232F3E">External system</text>
-<rect x="317.747578125" y="668" width="16" height="16" rx="3" fill="#DD344C"/><text x="339.747578125" y="680" font-size="10.5" fill="#232F3E">Security / identity</text>
-<rect x="455.14015625" y="668" width="16" height="16" rx="3" fill="#0078D4"/><text x="477.14015625" y="680" font-size="10.5" fill="#232F3E">Azure service</text>
+<rect x="186.55" y="668" width="16" height="16" rx="3" fill="#5A6B86"/><text x="208.55" y="680" font-size="10.5" fill="#232F3E">External system</text>
+<rect x="309.09000000000003" y="668" width="16" height="16" rx="3" fill="#DD344C"/><text x="331.09000000000003" y="680" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="438.98" y="668" width="16" height="16" rx="3" fill="#0078D4"/><text x="460.98" y="680" font-size="10.5" fill="#232F3E">Azure service</text>
 <line x1="110" y1="702" x2="144" y2="702" stroke="#232F3E" stroke-width="2"/><text x="152" y="706" font-size="10.5" fill="#232F3E">synchronous</text>
-<line x1="246.479765625" y1="702" x2="280.479765625" y2="702" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="706" font-size="10.5" fill="#232F3E">async / event</text>
-<line x1="387.144765625" y1="702" x2="421.144765625" y2="702" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="706" font-size="10.5" fill="#232F3E">deny / failure</text>
-<line x1="526.516953125" y1="702" x2="560.516953125" y2="702" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="706" font-size="10.5" fill="#232F3E">success / write-back</text>
-<rect x="702.9393749999999" y="694" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="706" font-size="10.5" fill="#232F3E">trust boundary</text>
+<line x1="240.27" y1="702" x2="274.27" y2="702" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="282.27" y="706" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="375.58000000000004" y1="702" x2="409.58000000000004" y2="702" stroke="#DD344C" stroke-width="2"/><text x="417.58000000000004" y="706" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="508.7900000000001" y1="702" x2="542.7900000000001" y2="702" stroke="#3F8624" stroke-width="2"/><text x="550.7900000000001" y="706" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="680.115" y="694" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="734.115" y="706" font-size="10.5" fill="#232F3E">trust boundary</text>
 <text x="40" y="738" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
 <circle cx="48.0" cy="746" r="8" fill="#232F3E"/><text x="48.0" y="749.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="750" font-size="10.5" fill="#232F3E">merge to main  (Pull request &gt; Protected environment)</text>
 <circle cx="48.0" cy="765" r="8" fill="#232F3E"/><text x="48.0" y="768.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="769" font-size="10.5" fill="#232F3E">approved run  (Protected environment &gt; OIDC token)</text>

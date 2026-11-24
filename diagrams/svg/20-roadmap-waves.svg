@@ -21,21 +21,21 @@
 <rect x="320" y="136" width="190" height="34" fill="#ED7100" fill-opacity=".12" clip-path="url(#gc1)"/>
 <rect x="328" y="142" width="22" height="22" rx="4" fill="#ED7100"/>
 <text x="339" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">AWS</text>
-<text x="358" y="158" fill="#ED7100" font-size="9.4" font-weight="700">Wave 1: Audit everywhere</text>
+<text x="358" y="158" fill="#ED7100" font-size="11.0" font-weight="700">Wave 1: Audit everywhere</text>
 <rect x="320" y="136" width="190" height="320" rx="8" fill="none" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
 <clipPath id="gc2"><rect x="600" y="136" width="190" height="320" rx="8"/></clipPath>
 <rect x="600" y="136" width="190" height="320" rx="8" fill="#0078D4" fill-opacity=".035"/>
 <rect x="600" y="136" width="190" height="34" fill="#0078D4" fill-opacity=".12" clip-path="url(#gc2)"/>
 <rect x="608" y="142" width="22" height="22" rx="4" fill="#0078D4"/>
 <text x="619" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">AZ</text>
-<text x="638" y="158" fill="#0078D4" font-size="9.6" font-weight="700">Wave 2: Enforce non-prod</text>
+<text x="638" y="158" fill="#0078D4" font-size="11.2" font-weight="700">Wave 2: Enforce non-prod</text>
 <rect x="600" y="136" width="190" height="320" rx="8" fill="none" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="7 4"/>
 <clipPath id="gc3"><rect x="880" y="136" width="190" height="320" rx="8"/></clipPath>
 <rect x="880" y="136" width="190" height="320" rx="8" fill="#1A73E8" fill-opacity=".035"/>
 <rect x="880" y="136" width="190" height="34" fill="#1A73E8" fill-opacity=".12" clip-path="url(#gc3)"/>
 <rect x="888" y="142" width="22" height="22" rx="4" fill="#1A73E8"/>
 <text x="899" y="156.5" fill="#fff" font-size="8.5" font-weight="700" text-anchor="middle">GCP</text>
-<text x="918" y="158" fill="#1A73E8" font-size="11.6" font-weight="700">Wave 3: Enforce prod</text>
+<text x="918" y="158" fill="#1A73E8" font-size="12.5" font-weight="700">Wave 3: Enforce prod</text>
 <rect x="880" y="136" width="190" height="320" rx="8" fill="none" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
 <clipPath id="gc4"><rect x="1160" y="136" width="190" height="320" rx="8"/></clipPath>
 <rect x="1160" y="136" width="190" height="320" rx="8" fill="#3F8624" fill-opacity=".035"/>
@@ -59,7 +59,7 @@
 <path d="M1525.0,436.0 L1525.0,458.0 Q1525.0,465.0 1518.0,465.0 L512.0,465.0 Q505.0,465.0 505.0,458.0 L505.0,222.0 Q505.0,215.0 498.0,215.0 L438.0,215.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
 <g filter="url(#sh)"><rect x="112.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CAT</text>
-<text x="135.0" y="244" fill="#232F3E" font-size="10.9" font-weight="600" text-anchor="middle">Catalogue + generator</text>
+<text x="135.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Catalogue + generator</text>
 <text x="135.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">12 controls</text>
 <g filter="url(#sh)"><rect x="112.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="112.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SBX</text>
@@ -71,7 +71,7 @@
 <text x="415.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">all 12 controls</text>
 <g filter="url(#sh)"><rect x="392.0" y="332" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="392.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="415.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">RPT</text>
-<text x="415.0" y="394" fill="#232F3E" font-size="10.9" font-weight="600" text-anchor="middle">Baseline impact report</text>
+<text x="415.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Baseline impact report</text>
 <text x="415.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">who breaks</text>
 <g filter="url(#sh)"><rect x="672.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="672.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="695.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DNY</text>
@@ -91,7 +91,7 @@
 <text x="975.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">drill</text>
 <g filter="url(#sh)"><rect x="1232.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1232.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="1255.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">REV</text>
-<text x="1255.0" y="244" fill="#232F3E" font-size="10.6" font-weight="600" text-anchor="middle">Quarterly policy review</text>
+<text x="1255.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Quarterly policy review</text>
 <text x="1255.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">ADR driven</text>
 <g filter="url(#sh)"><rect x="1232.0" y="332" width="46" height="46" rx="7" fill="#7AA116"/><rect x="1232.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="1255.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EVD</text>
@@ -113,17 +113,17 @@
 <circle cx="870.0" cy="465.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="870.0" y="468.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
 <line x1="40" y1="510" x2="1630" y2="510" stroke="#D5DBDB"/><text x="40" y="530" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
 <rect x="110" y="518" width="16" height="16" rx="3" fill="#E7157B"/><text x="132" y="530" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
-<rect x="299.90734375" y="518" width="16" height="16" rx="3" fill="#ED7100"/><text x="321.90734375" y="530" font-size="10.5" fill="#232F3E">Compute</text>
-<rect x="391.788984375" y="518" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="413.788984375" y="530" font-size="10.5" fill="#232F3E">Analytics</text>
-<rect x="483.46882812499996" y="518" width="16" height="16" rx="3" fill="#DD344C"/><text x="505.46882812499996" y="530" font-size="10.5" fill="#232F3E">Security / identity</text>
-<rect x="620.86140625" y="518" width="16" height="16" rx="3" fill="#CC2264"/><text x="642.86140625" y="530" font-size="10.5" fill="#232F3E">Integration / events</text>
-<rect x="768.3077343749999" y="518" width="16" height="16" rx="3" fill="#7AA116"/><text x="790.3077343749999" y="530" font-size="10.5" fill="#232F3E">Storage</text>
-<rect x="853.3922656249999" y="518" width="16" height="16" rx="3" fill="#232F3E"/><text x="875.3922656249999" y="530" font-size="10.5" fill="#232F3E">People</text>
+<rect x="282.73" y="518" width="16" height="16" rx="3" fill="#ED7100"/><text x="304.73" y="530" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="369.045" y="518" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="391.045" y="530" font-size="10.5" fill="#232F3E">Analytics</text>
+<rect x="457.67" y="518" width="16" height="16" rx="3" fill="#DD344C"/><text x="479.67" y="530" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="587.56" y="518" width="16" height="16" rx="3" fill="#CC2264"/><text x="609.56" y="530" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="725.3249999999999" y="518" width="16" height="16" rx="3" fill="#7AA116"/><text x="747.3249999999999" y="530" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="806.18" y="518" width="16" height="16" rx="3" fill="#232F3E"/><text x="828.18" y="530" font-size="10.5" fill="#232F3E">People</text>
 <line x1="110" y1="552" x2="144" y2="552" stroke="#232F3E" stroke-width="2"/><text x="152" y="556" font-size="10.5" fill="#232F3E">synchronous</text>
-<line x1="246.479765625" y1="552" x2="280.479765625" y2="552" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="556" font-size="10.5" fill="#232F3E">async / event</text>
-<line x1="387.144765625" y1="552" x2="421.144765625" y2="552" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="556" font-size="10.5" fill="#232F3E">deny / failure</text>
-<line x1="526.516953125" y1="552" x2="560.516953125" y2="552" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="556" font-size="10.5" fill="#232F3E">success / write-back</text>
-<rect x="702.9393749999999" y="544" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="556" font-size="10.5" fill="#232F3E">trust boundary</text>
+<line x1="240.27" y1="552" x2="274.27" y2="552" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="282.27" y="556" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="375.58000000000004" y1="552" x2="409.58000000000004" y2="552" stroke="#DD344C" stroke-width="2"/><text x="417.58000000000004" y="556" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="508.7900000000001" y1="552" x2="542.7900000000001" y2="552" stroke="#3F8624" stroke-width="2"/><text x="550.7900000000001" y="556" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="680.115" y="544" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="734.115" y="556" font-size="10.5" fill="#232F3E">trust boundary</text>
 <text x="40" y="588" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
 <circle cx="48.0" cy="596" r="8" fill="#232F3E"/><text x="48.0" y="599.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="600" font-size="10.5" fill="#232F3E">gate 1  (Sandbox scopes &gt; Audit mode on)</text>
 <circle cx="48.0" cy="615" r="8" fill="#232F3E"/><text x="48.0" y="618.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="619" font-size="10.5" fill="#232F3E">gate 2  (Baseline impact report &gt; Deny in NonProd)</text>

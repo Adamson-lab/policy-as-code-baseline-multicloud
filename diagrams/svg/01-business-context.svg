@@ -120,16 +120,16 @@
 <circle cx="875.0" cy="615.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="875.0" y="618.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">12</text>
 <line x1="40" y1="660" x2="1550" y2="660" stroke="#D5DBDB"/><text x="40" y="680" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
 <rect x="110" y="668" width="16" height="16" rx="3" fill="#232F3E"/><text x="132" y="680" font-size="10.5" fill="#232F3E">People</text>
-<rect x="188.88625" y="668" width="16" height="16" rx="3" fill="#E7157B"/><text x="210.88625" y="680" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
-<rect x="378.79359375" y="668" width="16" height="16" rx="3" fill="#ED7100"/><text x="400.79359375" y="680" font-size="10.5" fill="#232F3E">Compute</text>
-<rect x="470.675234375" y="668" width="16" height="16" rx="3" fill="#0078D4"/><text x="492.675234375" y="680" font-size="10.5" fill="#232F3E">Azure service</text>
-<rect x="585.5190625" y="668" width="16" height="16" rx="3" fill="#1A73E8"/><text x="607.5190625" y="680" font-size="10.5" fill="#232F3E">GCP service</text>
-<rect x="692.268046875" y="668" width="16" height="16" rx="3" fill="#5A6B86"/><text x="714.268046875" y="680" font-size="10.5" fill="#232F3E">External system</text>
+<rect x="186.55" y="668" width="16" height="16" rx="3" fill="#E7157B"/><text x="208.55" y="680" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<rect x="359.28000000000003" y="668" width="16" height="16" rx="3" fill="#ED7100"/><text x="381.28000000000003" y="680" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="445.595" y="668" width="16" height="16" rx="3" fill="#0078D4"/><text x="467.595" y="680" font-size="10.5" fill="#232F3E">Azure service</text>
+<rect x="555.5350000000001" y="668" width="16" height="16" rx="3" fill="#1A73E8"/><text x="577.5350000000001" y="680" font-size="10.5" fill="#232F3E">GCP service</text>
+<rect x="658.9650000000001" y="668" width="16" height="16" rx="3" fill="#5A6B86"/><text x="680.9650000000001" y="680" font-size="10.5" fill="#232F3E">External system</text>
 <line x1="110" y1="702" x2="144" y2="702" stroke="#232F3E" stroke-width="2"/><text x="152" y="706" font-size="10.5" fill="#232F3E">synchronous</text>
-<line x1="246.479765625" y1="702" x2="280.479765625" y2="702" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="706" font-size="10.5" fill="#232F3E">async / event</text>
-<line x1="387.144765625" y1="702" x2="421.144765625" y2="702" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="706" font-size="10.5" fill="#232F3E">deny / failure</text>
-<line x1="526.516953125" y1="702" x2="560.516953125" y2="702" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="706" font-size="10.5" fill="#232F3E">success / write-back</text>
-<rect x="702.9393749999999" y="694" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="706" font-size="10.5" fill="#232F3E">trust boundary</text>
+<line x1="240.27" y1="702" x2="274.27" y2="702" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="282.27" y="706" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="375.58000000000004" y1="702" x2="409.58000000000004" y2="702" stroke="#DD344C" stroke-width="2"/><text x="417.58000000000004" y="706" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="508.7900000000001" y1="702" x2="542.7900000000001" y2="702" stroke="#3F8624" stroke-width="2"/><text x="550.7900000000001" y="706" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="680.115" y="694" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="734.115" y="706" font-size="10.5" fill="#232F3E">trust boundary</text>
 <text x="40" y="738" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
 <circle cx="48.0" cy="746" r="8" fill="#232F3E"/><text x="48.0" y="749.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="750" font-size="10.5" fill="#232F3E">risk appetite  (CISO &gt; Policy-as-Code)</text>
 <circle cx="48.0" cy="765" r="8" fill="#232F3E"/><text x="48.0" y="768.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="769" font-size="10.5" fill="#232F3E">authors controls  (Cloud CoE &gt; Policy-as-Code)</text>

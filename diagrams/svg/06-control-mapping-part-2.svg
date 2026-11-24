@@ -64,11 +64,11 @@
 <text x="135.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-009 critical</text>
 <g filter="url(#sh)"><rect x="112.0" y="632" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">010</text>
-<text x="135.0" y="694" fill="#232F3E" font-size="11.0" font-weight="600" text-anchor="middle">No world-open ingress</text>
+<text x="135.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">No world-open ingress</text>
 <text x="135.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-010 critical</text>
 <g filter="url(#sh)"><rect x="112.0" y="782" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">011</text>
-<text x="135.0" y="844" fill="#232F3E" font-size="9.5" font-weight="600" text-anchor="middle">Hardened instance access</text>
+<text x="135.0" y="844" fill="#232F3E" font-size="11.0" font-weight="600" text-anchor="middle">Hardened instance access</text>
 <text x="135.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">PAC-011 high</text>
 <g filter="url(#sh)"><rect x="112.0" y="932" width="46" height="46" rx="7" fill="#E7157B"/><rect x="112.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">012</text>
@@ -116,7 +116,7 @@
 <text x="695.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / compensating</text>
 <g filter="url(#sh)"><rect x="672.0" y="782" width="46" height="46" rx="7" fill="#ED7100"/><rect x="672.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="695.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
-<text x="695.0" y="844" fill="#232F3E" font-size="11.3" font-weight="600" text-anchor="middle">SCP: IMDSv2 required</text>
+<text x="695.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SCP: IMDSv2 required</text>
 <text x="695.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / partial</text>
 <g filter="url(#sh)"><rect x="672.0" y="932" width="46" height="46" rx="7" fill="#7AA116"/><rect x="672.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="695.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
@@ -128,7 +128,7 @@
 <text x="975.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / partial</text>
 <g filter="url(#sh)"><rect x="952.0" y="332" width="46" height="46" rx="7" fill="#7AA116"/><rect x="952.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="975.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">AZ</text>
-<text x="975.0" y="394" fill="#232F3E" font-size="11.3" font-weight="600" text-anchor="middle">Require tag (Indexed)</text>
+<text x="975.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Require tag (Indexed)</text>
 <text x="975.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
 <g filter="url(#sh)"><rect x="952.0" y="482" width="46" height="46" rx="7" fill="#7AA116"/><rect x="952.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="975.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">AZ</text>
@@ -144,7 +144,7 @@
 <text x="975.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / partial</text>
 <g filter="url(#sh)"><rect x="952.0" y="932" width="46" height="46" rx="7" fill="#ED7100"/><rect x="952.0" y="932" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="975.0" y="960.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
-<text x="975.0" y="994" fill="#232F3E" font-size="10.7" font-weight="600" text-anchor="middle">Subnet outbound audit</text>
+<text x="975.0" y="994" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Subnet outbound audit</text>
 <text x="975.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detective / partial</text>
 <g filter="url(#sh)"><rect x="1232.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="1232.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="1255.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
@@ -172,14 +172,14 @@
 <text x="1255.0" y="1007" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">preventive / full</text>
 <line x1="40" y1="1110" x2="1350" y2="1110" stroke="#D5DBDB"/><text x="40" y="1130" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
 <rect x="110" y="1118" width="16" height="16" rx="3" fill="#E7157B"/><text x="132" y="1130" font-size="10.5" fill="#232F3E">Control</text>
-<rect x="191.95421875" y="1118" width="16" height="16" rx="3" fill="#3B48CC"/><text x="213.95421875" y="1130" font-size="10.5" fill="#232F3E">OPA / Rego (Terraform plan)</text>
-<rect x="381.645" y="1118" width="16" height="16" rx="3" fill="#7AA116"/><text x="403.645" y="1130" font-size="10.5" fill="#232F3E">Full fidelity</text>
-<rect x="482.84046875" y="1118" width="16" height="16" rx="3" fill="#ED7100"/><text x="504.84046875" y="1130" font-size="10.5" fill="#232F3E">Partial (gap documented)</text>
-<rect x="660.574375" y="1118" width="16" height="16" rx="3" fill="#DD344C"/><text x="682.574375" y="1130" font-size="10.5" fill="#232F3E">Compensating control</text>
+<rect x="188.02" y="1118" width="16" height="16" rx="3" fill="#3B48CC"/><text x="210.02" y="1130" font-size="10.5" fill="#232F3E">OPA / Rego (Terraform plan)</text>
+<rect x="369.36" y="1118" width="16" height="16" rx="3" fill="#7AA116"/><text x="391.36" y="1130" font-size="10.5" fill="#232F3E">Full fidelity</text>
+<rect x="467.96000000000004" y="1118" width="16" height="16" rx="3" fill="#ED7100"/><text x="489.96000000000004" y="1130" font-size="10.5" fill="#232F3E">Partial (gap documented)</text>
+<rect x="632.395" y="1118" width="16" height="16" rx="3" fill="#DD344C"/><text x="654.395" y="1130" font-size="10.5" fill="#232F3E">Compensating control</text>
 <line x1="110" y1="1152" x2="144" y2="1152" stroke="#232F3E" stroke-width="2"/><text x="152" y="1156" font-size="10.5" fill="#232F3E">synchronous</text>
-<line x1="246.479765625" y1="1152" x2="280.479765625" y2="1152" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="1156" font-size="10.5" fill="#232F3E">async / event</text>
-<line x1="387.144765625" y1="1152" x2="421.144765625" y2="1152" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="1156" font-size="10.5" fill="#232F3E">deny / failure</text>
-<line x1="526.516953125" y1="1152" x2="560.516953125" y2="1152" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="1156" font-size="10.5" fill="#232F3E">success / write-back</text>
-<rect x="702.9393749999999" y="1144" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="1156" font-size="10.5" fill="#232F3E">trust boundary</text>
+<line x1="240.27" y1="1152" x2="274.27" y2="1152" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="282.27" y="1156" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="375.58000000000004" y1="1152" x2="409.58000000000004" y2="1152" stroke="#DD344C" stroke-width="2"/><text x="417.58000000000004" y="1156" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="508.7900000000001" y1="1152" x2="542.7900000000001" y2="1152" stroke="#3F8624" stroke-width="2"/><text x="550.7900000000001" y="1156" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="680.115" y="1144" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="734.115" y="1156" font-size="10.5" fill="#232F3E">trust boundary</text>
 <text x="40" y="1232" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Every row exists in all four engines. Colour = fidelity; gaps are documented in docs/mapping-matrix.md and enforced by tools/verify_parity.py.</text>
 <text x="40" y="1258" font-size="9.5" fill="#8A94A6">Policy-as-Code Baseline (multicloud) | Adamson-lab | Diagram 06 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

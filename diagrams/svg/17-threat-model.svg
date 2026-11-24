@@ -59,7 +59,7 @@
 <text x="135.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">never expires</text>
 <g filter="url(#sh)"><rect x="112.0" y="782" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="112.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="135.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S</text>
-<text x="135.0" y="844" fill="#232F3E" font-size="9.1" font-weight="600" text-anchor="middle">T5 Pipeline credential theft</text>
+<text x="135.0" y="844" fill="#232F3E" font-size="10.6" font-weight="600" text-anchor="middle">T5 Pipeline credential theft</text>
 <text x="135.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">token abuse</text>
 <g filter="url(#sh)"><rect x="392.0" y="182" width="46" height="46" rx="7" fill="#7AA116"/><rect x="392.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="415.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">GIT</text>
@@ -78,11 +78,11 @@
 <text x="415.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Release pipeline</text>
 <g filter="url(#sh)"><rect x="872.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="895.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">REV</text>
-<text x="895.0" y="244" fill="#232F3E" font-size="9.3" font-weight="600" text-anchor="middle">Code owners + parity gate</text>
+<text x="895.0" y="244" fill="#232F3E" font-size="10.9" font-weight="600" text-anchor="middle">Code owners + parity gate</text>
 <text x="895.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">2 reviewers</text>
 <g filter="url(#sh)"><rect x="872.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="895.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">BG</text>
-<text x="895.0" y="394" fill="#232F3E" font-size="11.3" font-weight="600" text-anchor="middle">MFA + alarm + review</text>
+<text x="895.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">MFA + alarm + review</text>
 <text x="895.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">24h expiry</text>
 <g filter="url(#sh)"><rect x="872.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="872.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
 <text x="895.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
@@ -108,14 +108,14 @@
 <circle cx="545.0" cy="795.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="545.0" y="798.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
 <line x1="40" y1="960" x2="1140" y2="960" stroke="#D5DBDB"/><text x="40" y="980" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
 <rect x="110" y="968" width="16" height="16" rx="3" fill="#5A6B86"/><text x="132" y="980" font-size="10.5" fill="#232F3E">External system</text>
-<rect x="238.861328125" y="968" width="16" height="16" rx="3" fill="#7AA116"/><text x="260.861328125" y="980" font-size="10.5" fill="#232F3E">Storage</text>
-<rect x="323.945859375" y="968" width="16" height="16" rx="3" fill="#DD344C"/><text x="345.945859375" y="980" font-size="10.5" fill="#232F3E">Security / identity</text>
-<rect x="461.3384375" y="968" width="16" height="16" rx="3" fill="#ED7100"/><text x="483.3384375" y="980" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="232.54000000000002" y="968" width="16" height="16" rx="3" fill="#7AA116"/><text x="254.54000000000002" y="980" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="313.39500000000004" y="968" width="16" height="16" rx="3" fill="#DD344C"/><text x="335.39500000000004" y="980" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="443.285" y="968" width="16" height="16" rx="3" fill="#ED7100"/><text x="465.285" y="980" font-size="10.5" fill="#232F3E">Compute</text>
 <line x1="110" y1="1002" x2="144" y2="1002" stroke="#232F3E" stroke-width="2"/><text x="152" y="1006" font-size="10.5" fill="#232F3E">synchronous</text>
-<line x1="246.479765625" y1="1002" x2="280.479765625" y2="1002" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="288.479765625" y="1006" font-size="10.5" fill="#232F3E">async / event</text>
-<line x1="387.144765625" y1="1002" x2="421.144765625" y2="1002" stroke="#DD344C" stroke-width="2"/><text x="429.144765625" y="1006" font-size="10.5" fill="#232F3E">deny / failure</text>
-<line x1="526.516953125" y1="1002" x2="560.516953125" y2="1002" stroke="#3F8624" stroke-width="2"/><text x="568.516953125" y="1006" font-size="10.5" fill="#232F3E">success / write-back</text>
-<rect x="702.9393749999999" y="994" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="756.9393749999999" y="1006" font-size="10.5" fill="#232F3E">trust boundary</text>
+<line x1="240.27" y1="1002" x2="274.27" y2="1002" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="282.27" y="1006" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="375.58000000000004" y1="1002" x2="409.58000000000004" y2="1002" stroke="#DD344C" stroke-width="2"/><text x="417.58000000000004" y="1006" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="508.7900000000001" y1="1002" x2="542.7900000000001" y2="1002" stroke="#3F8624" stroke-width="2"/><text x="550.7900000000001" y="1006" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="680.115" y="994" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="734.115" y="1006" font-size="10.5" fill="#232F3E">trust boundary</text>
 <text x="40" y="1038" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
 <circle cx="48.0" cy="1046" r="8" fill="#DD344C"/><text x="48.0" y="1049.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="1050" font-size="10.5" fill="#232F3E">targets  (T1 Weaken a policy &gt; Policy repository)</text>
 <circle cx="48.0" cy="1065" r="8" fill="#DD344C"/><text x="48.0" y="1068.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="1069" font-size="10.5" fill="#232F3E">targets  (T2 Bypass via admin &gt; Admin roles)</text>
